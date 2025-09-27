@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Recommendation AI - Smart Cooking Assistant</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-robot"></i>
+                <h1>Recipe AI</h1>
+            </div>
+            <p class="tagline">Your Intelligent Cooking Companion</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Input Section -->
+            <section class="input-section">
+                <div class="search-container">
+                    <div class="search-box">
+                        <i class="fas fa-search"></i>
+                        <input type="text" id="ingredientInput" placeholder="Enter ingredients (e.g., tomato, onion, rice)">
+                        <button id="addIngredientBtn" class="add-btn">
+                            <i class="fas fa-plus"></i> Add Ingredient
+                        </button>
+                        <button id="searchBtn" class="search-btn">
+                            <i class="fas fa-magic"></i> Find Recipes
+                        </button>
+                        <button id="resetBtn" class="reset-btn">
+                            <i class="fas fa-undo"></i> Reset
+                        </button>
+                    </div>
+                    
+                    <!-- Ingredient Categories -->
+                    <div class="ingredient-categories">
+                        <h3>Quick Add Ingredients:</h3>
+                        <div class="category-tabs">
+                            <button class="tab-btn active" data-category="vegetables">Vegetables</button>
+                            <button class="tab-btn" data-category="spices">Spices</button>
+                            <button class="tab-btn" data-category="grains">Grains</button>
+                            <button class="tab-btn" data-category="dairy">Dairy</button>
+                            <button class="tab-btn" data-category="proteins">Proteins</button>
+                        </div>
+                        <div class="ingredient-grid" id="ingredientGrid"></div>
+                    </div>
+
+                    <!-- Selected Ingredients -->
+                    <div class="selected-ingredients" id="selectedIngredients">
+                        <h4>Selected Ingredients:</h4>
+                        <div class="ingredient-tags" id="ingredientTags"></div>
+                    </div>
+                </div>
+
+                <!-- Filters -->
+                <div class="filters">
+                    <div class="filter-group">
+                        <label>Cuisine:</label>
+                        <select id="cuisineFilter">
+                            <option value="">All Cuisines</option>
+                            <option value="indian">Indian</option>
+                            <option value="italian">Italian</option>
+                            <option value="chinese">Chinese</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>Diet:</label>
+                        <select id="dietFilter">
+                            <option value="">All</option>
+                            <option value="vegetarian">Vegetarian</option>
+                            <option value="non-vegetarian">Non-Vegetarian</option>
+                            <option value="vegan">Vegan</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label>Time:</label>
+                        <select id="timeFilter">
+                            <option value="">Any Time</option>
+                            <option value="15">Under 15 min</option>
+                            <option value="30">Under 30 min</option>
+                            <option value="60">Under 1 hour</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section class="results-section">
+                <!-- AI Reasoning -->
+                <div class="ai-reasoning" id="aiReasoning" style="display: none;">
+                    <div class="reasoning-header">
+                        <i class="fas fa-brain"></i>
+                        <h3>AI Analysis</h3>
+                    </div>
+                    <div class="reasoning-steps" id="reasoningSteps"></div>
+                </div>
+
+                <!-- Recipe Results -->
+                <div class="recipe-results" id="recipeResults">
+                    <div class="welcome-message">
+                        <i class="fas fa-utensils"></i>
+                        <h2>Welcome to Recipe AI</h2>
+                        <p>Enter your available ingredients and let our AI find the perfect recipes for you!</p>
+                    </div>
+                </div>
+            </section>
+            <!-- Add Recipe Section -->
+            <section class="add-recipe-section">
+                <h3><i class="fas fa-plus-circle"></i> Add New Recipe</h3>
+                <form id="addRecipeForm">
+                    <input type="text" id="recipeName" placeholder="Recipe Name" required>
+                    <input type="text" id="recipeIngredients" placeholder="Ingredients (comma separated)" required>
+                    <textarea id="recipeInstructions" placeholder="Instructions" required></textarea>
+            
+                    <select id="recipeCuisine">
+                        <option value="">Cuisine (optional)</option>
+                        <option value="indian">Indian</option>
+                        <option value="italian">Italian</option>
+                        <option value="chinese">Chinese</option>
+                    </select>
+            
+                    <select id="recipeDiet">
+                        <option value="">Diet (optional)</option>
+                        <option value="vegetarian">Vegetarian</option>
+                        <option value="non-vegetarian">Non-Vegetarian</option>
+                        <option value="vegan">Vegan</option>
+                    </select>
+            
+                    <input type="number" id="recipeTime" placeholder="Time in minutes (optional)">
+            
+                    <button type="submit" class="add-btn">Save Recipe</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="saved-recipes">
+                <h3><i class="fas fa-heart"></i> Saved Recipes</h3>
+                <div class="saved-list" id="savedList">
+                    <p class="empty-state">No saved recipes yet</p>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Recipe Modal -->
+    <div class="modal" id="recipeModal">
+        <div class="modal-content">
+            <span class="close" id="closeModal">&times;</span>
+            <div class="modal-body" id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

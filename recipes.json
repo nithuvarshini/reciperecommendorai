@@ -1,0 +1,253 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "name": "Butter Chicken",
+      "cuisine": "indian",
+      "diet": "non-vegetarian",
+      "cookingTime": 45,
+      "ingredients": ["chicken", "butter", "tomato", "onion", "garlic", "ginger", "cream", "garam masala", "turmeric", "red chili"],
+      "instructions": [
+        "Marinate chicken pieces with yogurt, ginger-garlic paste, and spices for 30 minutes",
+        "Cook marinated chicken in a pan until golden brown",
+        "Prepare tomato-onion base by cooking until soft and blending",
+        "Add spices to the base and cook for 2-3 minutes",
+        "Add cooked chicken and simmer for 10 minutes",
+        "Finish with cream and butter, garnish with coriander"
+      ],
+      "description": "Rich and creamy North Indian chicken curry with aromatic spices",
+      "difficulty": "medium",
+      "servings": 4
+    },
+    {
+      "id": 2,
+      "name": "Vegetable Biryani",
+      "cuisine": "indian",
+      "diet": "vegetarian",
+      "cookingTime": 60,
+      "ingredients": ["rice", "potato", "carrot", "bell pepper", "onion", "yogurt", "garam masala", "turmeric", "cumin", "bay leaves"],
+      "instructions": [
+        "Soak basmati rice for 30 minutes",
+        "Prepare vegetables by cutting into medium pieces",
+        "Fry onions until golden and crispy",
+        "Cook vegetables with spices until tender",
+        "Partially cook rice with whole spices",
+        "Layer rice and vegetables alternately",
+        "Cook on dum (slow cooking) for 45 minutes"
+      ],
+      "description": "Aromatic rice dish layered with spiced vegetables and fragrant basmati rice",
+      "difficulty": "hard",
+      "servings": 6
+    },
+    {
+      "id": 3,
+      "name": "Spaghetti Carbonara",
+      "cuisine": "italian",
+      "diet": "non-vegetarian",
+      "cookingTime": 20,
+      "ingredients": ["spaghetti", "eggs", "cheese", "bacon", "black pepper", "garlic"],
+      "instructions": [
+        "Cook spaghetti in salted boiling water until al dente",
+        "Fry bacon until crispy and set aside",
+        "Beat eggs with grated cheese and black pepper",
+        "Toss hot pasta with egg mixture off the heat",
+        "Add crispy bacon and mix well",
+        "Serve immediately with extra cheese and pepper"
+      ],
+      "description": "Classic Italian pasta dish with creamy egg sauce and crispy bacon",
+      "difficulty": "easy",
+      "servings": 2
+    },
+    {
+      "id": 4,
+      "name": "Dal Tadka",
+      "cuisine": "indian",
+      "diet": "vegetarian",
+      "cookingTime": 30,
+      "ingredients": ["lentils", "onion", "tomato", "garlic", "ginger", "turmeric", "cumin", "coriander", "ghee"],
+      "instructions": [
+        "Wash and cook lentils with turmeric until soft",
+        "Prepare tadka by heating ghee in a pan",
+        "Add cumin seeds, garlic, and ginger to hot ghee",
+        "Add chopped onions and cook until golden",
+        "Add tomatoes and cook until soft",
+        "Mix cooked lentils with tadka and simmer",
+        "Garnish with fresh coriander leaves"
+      ],
+      "description": "Comforting spiced lentil curry with aromatic tempering",
+      "difficulty": "easy",
+      "servings": 4
+    },
+    {
+      "id": 5,
+      "name": "Chicken Fried Rice",
+      "cuisine": "chinese",
+      "diet": "non-vegetarian",
+      "cookingTime": 25,
+      "ingredients": ["rice", "chicken", "eggs", "carrot", "bell pepper", "onion", "garlic", "soy sauce"],
+      "instructions": [
+        "Cook rice and let it cool completely",
+        "Cut chicken into small pieces and marinate",
+        "Stir fry chicken until cooked through",
+        "Scramble eggs and set aside",
+        "Stir fry vegetables until crisp-tender",
+        "Add rice and mix with soy sauce",
+        "Combine everything and stir fry for 2-3 minutes"
+      ],
+      "description": "Quick and flavorful Chinese-style fried rice with tender chicken and vegetables",
+      "difficulty": "easy",
+      "servings": 3
+    },
+    {
+      "id": 6,
+      "name": "Paneer Butter Masala",
+      "cuisine": "indian",
+      "diet": "vegetarian",
+      "cookingTime": 35,
+      "ingredients": ["paneer", "butter", "tomato", "onion", "cream", "garam masala", "turmeric", "red chili", "garlic", "ginger"],
+      "instructions": [
+        "Cut paneer into cubes and lightly fry",
+        "Prepare smooth tomato-onion puree",
+        "Cook puree with ginger-garlic paste",
+        "Add spices and cook until oil separates",
+        "Add paneer cubes and mix gently",
+        "Simmer with cream and butter",
+        "Garnish with fresh coriander"
+      ],
+      "description": "Creamy and rich cottage cheese curry in spiced tomato gravy",
+      "difficulty": "medium",
+      "servings": 4
+    },
+    {
+      "id": 7,
+      "name": "Margherita Pizza",
+      "cuisine": "italian",
+      "diet": "vegetarian",
+      "cookingTime": 30,
+      "ingredients": ["wheat flour", "tomato", "cheese", "basil", "olive oil", "garlic"],
+      "instructions": [
+        "Prepare pizza dough with flour, yeast, and water",
+        "Let dough rise for 1 hour",
+        "Roll out dough into pizza base",
+        "Spread tomato sauce evenly",
+        "Add mozzarella cheese and fresh basil",
+        "Drizzle with olive oil",
+        "Bake at high temperature until golden and bubbly"
+      ],
+      "description": "Classic Italian pizza with fresh tomatoes, mozzarella, and basil",
+      "difficulty": "medium",
+      "servings": 2
+    },
+    {
+      "id": 8,
+      "name": "Rajma Curry",
+      "cuisine": "indian",
+      "diet": "vegetarian",
+      "cookingTime": 45,
+      "ingredients": ["kidney beans", "onion", "tomato", "garlic", "ginger", "cumin", "coriander", "garam masala", "turmeric"],
+      "instructions": [
+        "Soak kidney beans overnight and pressure cook",
+        "Prepare onion-tomato base by cooking until soft",
+        "Add ginger-garlic paste and spices",
+        "Cook until oil separates from masala",
+        "Add cooked kidney beans with cooking liquid",
+        "Simmer until thick and creamy",
+        "Garnish with coriander and serve with rice"
+      ],
+      "description": "Hearty and protein-rich kidney bean curry in spiced tomato gravy",
+      "difficulty": "medium",
+      "servings": 4
+    },
+    {
+      "id": 9,
+      "name": "Vegetable Stir Fry",
+      "cuisine": "chinese",
+      "diet": "vegetarian",
+      "cookingTime": 15,
+      "ingredients": ["broccoli", "carrot", "bell pepper", "onion", "garlic", "ginger", "soy sauce"],
+      "instructions": [
+        "Cut all vegetables into uniform pieces",
+        "Heat oil in a wok or large pan",
+        "Add garlic and ginger, stir fry for 30 seconds",
+        "Add harder vegetables first (carrots, broccoli)",
+        "Add softer vegetables (bell peppers, onions)",
+        "Season with soy sauce and pepper",
+        "Stir fry until vegetables are crisp-tender"
+      ],
+      "description": "Quick and healthy mixed vegetable stir fry with Asian flavors",
+      "difficulty": "easy",
+      "servings": 3
+    },
+    {
+      "id": 10,
+      "name": "Masala Dosa",
+      "cuisine": "indian",
+      "diet": "vegetarian",
+      "cookingTime": 40,
+      "ingredients": ["rice", "lentils", "potato", "onion", "turmeric", "cumin", "mustard seeds", "curry leaves"],
+      "instructions": [
+        "Soak rice and lentils separately for 4-6 hours",
+        "Grind to smooth batter and ferment overnight",
+        "Prepare potato filling with spices",
+        "Heat dosa pan and spread batter thinly",
+        "Cook until golden and crispy",
+        "Add potato filling and fold dosa",
+        "Serve hot with coconut chutney and sambar"
+      ],
+      "description": "South Indian fermented crepe filled with spiced potato curry",
+      "difficulty": "hard",
+      "servings": 4
+    },
+    {
+      "id": 11,
+      "name": "Chicken Tikka Masala",
+      "cuisine": "indian",
+      "diet": "non-vegetarian",
+      "cookingTime": 50,
+      "ingredients": ["chicken", "yogurt", "tomato", "onion", "cream", "garam masala", "turmeric", "red chili", "garlic", "ginger"],
+      "instructions": [
+        "Marinate chicken in yogurt and spices for 2 hours",
+        "Grill or pan-fry chicken until charred",
+        "Prepare rich tomato-onion gravy",
+        "Add grilled chicken to the gravy",
+        "Simmer with cream and spices",
+        "Adjust seasoning and consistency",
+        "Garnish with fresh coriander"
+      ],
+      "description": "Smoky grilled chicken in rich and creamy tomato-based curry",
+      "difficulty": "medium",
+      "servings": 4
+    },
+    {
+      "id": 12,
+      "name": "Vegetable Pasta",
+      "cuisine": "italian",
+      "diet": "vegetarian",
+      "cookingTime": 25,
+      "ingredients": ["pasta", "bell pepper", "zucchini", "tomato", "garlic", "olive oil", "basil", "cheese"],
+      "instructions": [
+        "Cook pasta according to package instructions",
+        "Heat olive oil and sauté garlic",
+        "Add vegetables and cook until tender",
+        "Add tomatoes and cook until soft",
+        "Toss cooked pasta with vegetables",
+        "Season with herbs and cheese",
+        "Serve hot with extra parmesan"
+      ],
+      "description": "Colorful pasta dish loaded with fresh seasonal vegetables",
+      "difficulty": "easy",
+      "servings": 3
+    }
+  ],
+  "categories": {
+    "vegetables": ["tomato", "onion", "potato", "carrot", "bell pepper", "spinach", "cauliflower", "broccoli", "cucumber", "garlic", "ginger", "zucchini"],
+    "spices": ["turmeric", "cumin", "coriander", "garam masala", "red chili", "black pepper", "cardamom", "cinnamon", "cloves", "bay leaves", "mustard seeds", "curry leaves"],
+    "grains": ["rice", "wheat flour", "quinoa", "oats", "barley", "millet", "semolina", "corn", "buckwheat", "pasta", "spaghetti"],
+    "dairy": ["milk", "yogurt", "cheese", "butter", "cream", "paneer", "ghee"],
+    "proteins": ["chicken", "fish", "eggs", "lentils", "chickpeas", "kidney beans", "tofu", "mutton", "prawns", "bacon"]
+  },
+  "cuisines": ["indian", "italian", "chinese", "mexican", "thai", "mediterranean"],
+  "diets": ["vegetarian", "non-vegetarian", "vegan", "gluten-free", "dairy-free"],
+  "difficulties": ["easy", "medium", "hard"],
+  "cookingTimes": [15, 30, 45, 60, 90]
+}
